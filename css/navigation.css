@@ -148,3 +148,11 @@ display: block;
     letter-spacing: -1px;
     color: white;
   }
+@media only screen and (max-width: 1071px) {
+  .two, .one, .roliga, .hem_spel, .hashtaggar, .slide, .dot{
+    display: none;
+  }
+  .recommended_games1{
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+  }
+  }
